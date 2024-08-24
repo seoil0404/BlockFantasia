@@ -12,15 +12,17 @@ public class SceneController : MonoBehaviour
 
     public void LoadSettingScene()
     {
-
+        SceneManager.LoadScene("OptionScene");
     }
 
     public void Quit()
     {
         Application.Quit();
     }
+
     public void LoadStartScene()
     {
         SceneManager.LoadScene("StartScene");
     }
+
 }
