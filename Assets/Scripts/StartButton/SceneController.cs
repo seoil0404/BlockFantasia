@@ -7,7 +7,7 @@ public class SceneController : MonoBehaviour
 {
     public void LoadMainScene()
     {
-
+        SceneManager.LoadScene("CharacterChooseScene");
     }
 
     public void LoadSettingScene()
