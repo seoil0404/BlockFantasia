@@ -19,5 +19,8 @@ public class SceneController : MonoBehaviour
     {
         Application.Quit();
     }
-
+    public void LoadStartScene()
+    {
+        SceneManager.LoadScene("StartScene");
+    }
 }
